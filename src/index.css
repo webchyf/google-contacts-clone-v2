@@ -1,6 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Nunito";
+  src: url("./assets/fonts/Nunito-VariableFont_wght.ttf");
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: "Nunito_Italic";
+  src: url("./assets/fonts/Nunito-Italic-VariableFont_wght.ttf");
+  font-weight: 100 900;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family:"Nunito", -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -10,4 +25,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.my-italic{
+  font-family: "Nunito_Italic";
+}
+.my-font{
+  font-family: "Nunito";
 }
